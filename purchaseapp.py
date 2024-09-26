@@ -35,7 +35,7 @@ Est_sal = st.slider("Enter Estimated salary",min_value=10000, max_value=200000,v
 st.markdown('The goal of this project is to develop a machine learning model that predicts whether a person will make a purchase based on their age and salary')
 Gender = st.text("Select Male or Female")
 st.checkbox("Male")
-st.checkbox("FeMale")
+st.checkbox("Female")
 
 input_data = np.array([[Age,Est_sal]])
 
