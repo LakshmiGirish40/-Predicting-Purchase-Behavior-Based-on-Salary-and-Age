@@ -7,4 +7,4 @@ COPY ../
 
 RUN pip install -r requirements.txt
 
-ENTRYPOINT['streamlit', 'run','app.py','--server.port=8080','--server.adress=0.0.0.0']
+ENTRYPOINT['streamlit', 'run','purchaseapp.py','--server.port=8080','--server.adress=0.0.0.0']
